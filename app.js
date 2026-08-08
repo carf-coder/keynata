@@ -1222,6 +1222,79 @@ const SONG_LIST = [
       ja: "Lv.7｜ショパン 幻想即興曲 Op.66",
     },
   },
+  // SPEC_KYN1 §3: Keynata Commons(CC0の生成曲ライブラリ)から事前変換した曲。
+  // 既存曲と混ぜず専用optgroupで出すため isAiComposed で印を付ける。表示名は
+  // Commons側のトラック名 "AI Composed No. <seed>" を両言語で共有する。
+  {
+    id: "ai_karaoke_12201", file: "songs/ai_karaoke_12201.json", level: 3, isAiComposed: true,
+    labels: {
+      en: "Lv.3 | AI Composed No. 12201",
+      ja: "Lv.3｜AI Composed No. 12201",
+    },
+  },
+  {
+    id: "ai_karaoke_12280", file: "songs/ai_karaoke_12280.json", level: 3, isAiComposed: true,
+    labels: {
+      en: "Lv.3 | AI Composed No. 12280",
+      ja: "Lv.3｜AI Composed No. 12280",
+    },
+  },
+  {
+    id: "ai_karaoke_12627", file: "songs/ai_karaoke_12627.json", level: 3, isAiComposed: true,
+    labels: {
+      en: "Lv.3 | AI Composed No. 12627",
+      ja: "Lv.3｜AI Composed No. 12627",
+    },
+  },
+  {
+    id: "ai_karaoke_12737", file: "songs/ai_karaoke_12737.json", level: 3, isAiComposed: true,
+    labels: {
+      en: "Lv.3 | AI Composed No. 12737",
+      ja: "Lv.3｜AI Composed No. 12737",
+    },
+  },
+  {
+    id: "ai_classical_piano_4104", file: "songs/ai_classical_piano_4104.json", level: 4, isAiComposed: true,
+    labels: {
+      en: "Lv.4 | AI Composed No. 4104",
+      ja: "Lv.4｜AI Composed No. 4104",
+    },
+  },
+  {
+    id: "ai_classical_piano_4138", file: "songs/ai_classical_piano_4138.json", level: 4, isAiComposed: true,
+    labels: {
+      en: "Lv.4 | AI Composed No. 4138",
+      ja: "Lv.4｜AI Composed No. 4138",
+    },
+  },
+  {
+    id: "ai_classical_piano_5306", file: "songs/ai_classical_piano_5306.json", level: 4, isAiComposed: true,
+    labels: {
+      en: "Lv.4 | AI Composed No. 5306",
+      ja: "Lv.4｜AI Composed No. 5306",
+    },
+  },
+  {
+    id: "ai_classical_piano_4001", file: "songs/ai_classical_piano_4001.json", level: 5, isAiComposed: true,
+    labels: {
+      en: "Lv.5 | AI Composed No. 4001",
+      ja: "Lv.5｜AI Composed No. 4001",
+    },
+  },
+  {
+    id: "ai_classical_piano_5702", file: "songs/ai_classical_piano_5702.json", level: 5, isAiComposed: true,
+    labels: {
+      en: "Lv.5 | AI Composed No. 5702",
+      ja: "Lv.5｜AI Composed No. 5702",
+    },
+  },
+  {
+    id: "ai_classical_piano_5901", file: "songs/ai_classical_piano_5901.json", level: 5, isAiComposed: true,
+    labels: {
+      en: "Lv.5 | AI Composed No. 5901",
+      ja: "Lv.5｜AI Composed No. 5901",
+    },
+  },
 ].sort((a, b) => a.level - b.level);
 const SONG_STORAGE_KEY = "pianoTypingGame.songId";
 const INTRO_SONG_ID = "ode_to_joy"; // SPEC_I18N_ONBOARDING §3.3 イントロ素材
@@ -1344,13 +1417,27 @@ function refreshSongSelectTexts() {
 
   const builtinGroup = document.createElement("optgroup");
   builtinGroup.label = t("song.group.builtin");
-  catalog.filter((s) => !s.isPrivate).forEach((s) => {
+  catalog.filter((s) => !s.isPrivate && !s.isAiComposed).forEach((s) => {
     const opt = document.createElement("option");
     opt.value = s.id;
     opt.textContent = songLabel(s);
     builtinGroup.appendChild(opt);
   });
   selectEl.appendChild(builtinGroup);
+
+  const aiSongs = catalog.filter((s) => s.isAiComposed);
+  if (aiSongs.length > 0) {
+    // SPEC_KYN1 §3: Commons由来の生成曲は既存曲と混ぜず、別グループで出所を明示する
+    const aiGroup = document.createElement("optgroup");
+    aiGroup.label = t("song.group.aiComposed");
+    aiSongs.forEach((s) => {
+      const opt = document.createElement("option");
+      opt.value = s.id;
+      opt.textContent = songLabel(s);
+      aiGroup.appendChild(opt);
+    });
+    selectEl.appendChild(aiGroup);
+  }
 
   const privateSongs = catalog.filter((s) => s.isPrivate);
   if (privateSongs.length > 0) {
@@ -1490,8 +1577,10 @@ function rememberIntroId(songId) {
 
 function pickIntroEntry() {
   const lastId = readLastIntroId();
-  let candidates = SONG_LIST.filter((s) => s.id !== lastId);
-  if (candidates.length === 0) candidates = SONG_LIST.slice();
+  // SPEC_KYN1 §3: 生成曲は既存曲と混ぜない方針のため、初回体験の抽選対象からも外す
+  const pool = SONG_LIST.filter((s) => !s.isAiComposed);
+  let candidates = pool.filter((s) => s.id !== lastId);
+  if (candidates.length === 0) candidates = pool.slice();
   return candidates[Math.floor(Math.random() * candidates.length)];
 }
 

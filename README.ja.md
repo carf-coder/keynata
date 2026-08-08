@@ -18,7 +18,7 @@ keynata/
   i18n.js             文言テーブル(en/ja)と言語決定・適用ロジック
   app.js              キー入力処理・Web Audio合成・進行判定
   style.css           見た目
-  songs/*.json        前処理済みの曲データ(生成物、公開曲37曲)
+  songs/*.json        前処理済みの曲データ(生成物、公開曲47曲=人手収録37曲+AI作曲10曲)
   samples/*.mp3       Salamander Grand Piano のサンプル音源
   tools/
     preprocess_midi.py       MIDI -> 曲データJSON 変換スクリプト
@@ -172,6 +172,29 @@ python3 -m http.server 8000
 | 7 | Debussy - Clair de Lune | https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1778 | Public Domain / CC0 | 763 | 6 | 102 | 26 |
 
 取得日: Mutopia分は2026-07-31(BWV846のみ2026-07-16)。
+
+### AI作曲 (Keynata Commons)
+
+収録47曲のうち10曲は機械生成曲で、曲選択UIでは専用グループ **AI作曲 (Keynata Commons)** にまとめ、上表の人手収録曲とは混ぜていない。出所は CC0 生成曲ライブラリ [Keynata Commons](https://carf-coder.github.io/keynata-commons/)。生成エンジンは規則ベースで、和声プラン(終止・転調・AB / ABA / ロンドなどの形式)を先に決めてから、古典派の声部進行制約に従って旋律と伴奏を書く方式であり、他者の演奏データを学習したニューラルモデルではない。
+
+Commons公開時に参照コーパスとの類似度スクリーニングを通過した曲だけが公開され、**Keynataへ変換できるのは公開済みトラックのみ**(未公開シードの直接変換は禁止)。したがってスクリーニング未通過の曲がゲームに入ることはない。変換後の譜面はさらに、既存37曲の実測値から固定した適性ゲート(同時発音数・発音密度・長さ・オクターブ補正率・ライセンス表記)で機械検査している。
+
+ライセンスは全曲 `CC0 (Keynata Commons, AI-generated)`。出所は各曲JSONの `commonsTrackId` と、Commonsの当該トラックページを指す `sourceUrl` に記録している。
+
+| Lv | 曲(英語ラベル) | Commonsトラック | ライセンス | イベント数 | 最大同時 | オクターブ補正 | 6音超で間引き |
+|---|---|---|---|---|---|---|---|
+| 3 | AI Composed No. 12201 | https://carf-coder.github.io/keynata-commons/#karaoke_12201 | CC0 (Keynata Commons, AI-generated) | 508 | 1 | 0 | 0 |
+| 3 | AI Composed No. 12280 | https://carf-coder.github.io/keynata-commons/#karaoke_12280 | CC0 (Keynata Commons, AI-generated) | 524 | 1 | 0 | 0 |
+| 3 | AI Composed No. 12627 | https://carf-coder.github.io/keynata-commons/#karaoke_12627 | CC0 (Keynata Commons, AI-generated) | 501 | 1 | 0 | 0 |
+| 3 | AI Composed No. 12737 | https://carf-coder.github.io/keynata-commons/#karaoke_12737 | CC0 (Keynata Commons, AI-generated) | 433 | 1 | 0 | 0 |
+| 4 | AI Composed No. 4104 | https://carf-coder.github.io/keynata-commons/#classical_piano_4104 | CC0 (Keynata Commons, AI-generated) | 138 | 3 | 0 | 0 |
+| 4 | AI Composed No. 4138 | https://carf-coder.github.io/keynata-commons/#classical_piano_4138 | CC0 (Keynata Commons, AI-generated) | 124 | 3 | 0 | 0 |
+| 4 | AI Composed No. 5306 | https://carf-coder.github.io/keynata-commons/#classical_piano_5306 | CC0 (Keynata Commons, AI-generated) | 56 | 3 | 0 | 0 |
+| 5 | AI Composed No. 4001 | https://carf-coder.github.io/keynata-commons/#classical_piano_4001 | CC0 (Keynata Commons, AI-generated) | 201 | 2 | 0 | 0 |
+| 5 | AI Composed No. 5702 | https://carf-coder.github.io/keynata-commons/#classical_piano_5702 | CC0 (Keynata Commons, AI-generated) | 406 | 4 | 210 | 0 |
+| 5 | AI Composed No. 5901 | https://carf-coder.github.io/keynata-commons/#classical_piano_5901 | CC0 (Keynata Commons, AI-generated) | 442 | 4 | 213 | 0 |
+
+`karaoke_*` の4曲は単旋律(常に1音ずつ・2小節ごとにブレスの休符が入る)、`classical_piano_*` の6曲は旋律+伴奏の2声で、既存収録曲と同格のピアノ曲。5702・5901のオクターブ補正はノート数比 28-30% で、既存曲の最大値(30.43%)以内に収まっている。
 
 ## 音源について
 

@@ -68,7 +68,8 @@ toggles English and Japanese without interrupting a performance.
 
 ## Repertoire
 
-37 pieces, all public domain or CC0. Classical pieces come from the
+47 pieces, all public domain or CC0: 37 human-written pieces (table below) plus
+10 AI-composed pieces from Keynata Commons (see the next section). Classical pieces come from the
 [Mutopia Project](https://www.mutopiaproject.org/), taken only from piece pages
 whose `Copyright:` line reads `Public Domain`; CC-BY-SA engravings were rejected
 even when the same composer was available elsewhere. Folk pieces and practice
@@ -117,6 +118,45 @@ larger than six notes are thinned; both are recorded per piece in the
 | 7 | Debussy - Clair de Lune | [Mutopia #1778](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1778) | Public domain / CC0 | 763 |
 | 7 | Chopin - Waltz Op. 64 No. 1, Minute Waltz | [Mutopia #483](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483) | Public domain | 734 |
 | 7 | Chopin - Fantaisie-Impromptu Op. 66 | [Mutopia #1693](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1693) | Public domain | 2519 |
+
+### AI Composed (Keynata Commons)
+
+Ten of the 47 pieces are machine-composed and listed under their own
+**AI Composed (Keynata Commons)** group in the piece selector, never mixed in
+with the human repertoire. They come from
+[Keynata Commons](https://carf-coder.github.io/keynata-commons/), a library of
+CC0 pieces written by a rule-based generator: the engine builds a harmonic plan
+(cadences, modulations and form such as AB, ABA or rondo) and then writes melody
+and accompaniment against classical voice-leading constraints - it is not a
+neural model trained on other people's recordings.
+
+Every published track is screened for similarity against the reference corpus
+before it enters Commons, and only tracks that are already published there can
+be converted for Keynata, so nothing reaches the game without passing that gate.
+The converted scores are additionally checked against fixed playability gates
+(chord size, note density, length, octave-shift rate, licence wording) measured
+from the existing 37 pieces.
+
+Each piece is released as `CC0 (Keynata Commons, AI-generated)`. The song JSON
+records its origin in `commonsTrackId` and in `sourceUrl`, which links back to
+the Commons page for that track.
+
+| Lv | Piece | Commons track | License | Events |
+|---|---|---|---|---|
+| 3 | AI Composed No. 12201 | [karaoke_12201](https://carf-coder.github.io/keynata-commons/#karaoke_12201) | CC0 | 508 |
+| 3 | AI Composed No. 12280 | [karaoke_12280](https://carf-coder.github.io/keynata-commons/#karaoke_12280) | CC0 | 524 |
+| 3 | AI Composed No. 12627 | [karaoke_12627](https://carf-coder.github.io/keynata-commons/#karaoke_12627) | CC0 | 501 |
+| 3 | AI Composed No. 12737 | [karaoke_12737](https://carf-coder.github.io/keynata-commons/#karaoke_12737) | CC0 | 433 |
+| 4 | AI Composed No. 4104 | [classical_piano_4104](https://carf-coder.github.io/keynata-commons/#classical_piano_4104) | CC0 | 138 |
+| 4 | AI Composed No. 4138 | [classical_piano_4138](https://carf-coder.github.io/keynata-commons/#classical_piano_4138) | CC0 | 124 |
+| 4 | AI Composed No. 5306 | [classical_piano_5306](https://carf-coder.github.io/keynata-commons/#classical_piano_5306) | CC0 | 56 |
+| 5 | AI Composed No. 4001 | [classical_piano_4001](https://carf-coder.github.io/keynata-commons/#classical_piano_4001) | CC0 | 201 |
+| 5 | AI Composed No. 5702 | [classical_piano_5702](https://carf-coder.github.io/keynata-commons/#classical_piano_5702) | CC0 | 406 |
+| 5 | AI Composed No. 5901 | [classical_piano_5901](https://carf-coder.github.io/keynata-commons/#classical_piano_5901) | CC0 | 442 |
+
+The four `karaoke_*` tracks are single-line melodies (one key at a time, with a
+rest every two bars); the six `classical_piano_*` tracks are two-voice piano
+pieces of the same kind as the existing repertoire.
 
 ## Credits
 

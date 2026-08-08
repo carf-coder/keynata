@@ -31,6 +31,7 @@ const I18N = {
     "song.now": "Piece",
     "song.loading": "Loading...",
     "song.group.builtin": "Pieces",
+    "song.group.aiComposed": "AI Composed (Keynata Commons)",
     "song.group.private": "Private use only (not distributed)",
     "song.credit": "Source: {source} / License: {license}",
 
@@ -106,6 +107,7 @@ const I18N = {
     "song.now": "曲",
     "song.loading": "読み込み中...",
     "song.group.builtin": "収録曲",
+    "song.group.aiComposed": "AI作曲 (Keynata Commons)",
     "song.group.private": "私的利用曲(配布不可)",
     "song.credit": "出典: {source} / ライセンス: {license}",
 
