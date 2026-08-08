@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 作品名はHTMLに直書きせず i18n の app.title から入れる(変更点を1か所に保つ) -->
+<title data-i18n="app.title"></title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- ラテン書体のみ常時読み込む。和文書体は日本語表示のときだけ i18n.js が差し込む -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css?v=20260731c">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <div class="eyebrow" data-i18n="app.eyebrow"></div>
+    <div class="lang-switch" id="lang-switch" role="group" data-i18n-attr="aria-label:lang.label">
+      <button type="button" class="lang-button" data-lang="en" data-i18n="lang.en"></button>
+      <button type="button" class="lang-button" data-lang="ja" data-i18n="lang.ja"></button>
+    </div>
+  </div>
+  <h1 data-i18n="app.title"></h1>
+  <div class="rule"></div>
+  <div class="subtitle" data-i18n="app.subtitle"></div>
+</header>
+
+<div id="error-box"></div>
+
+<div class="panel" id="main-panel">
+  <div class="status-row">
+    <div class="status-item">
+      <span class="label" data-i18n="song.select"></span>
+      <select id="song-select"></select>
+    </div>
+    <div class="status-item">
+      <span class="label" data-i18n="song.now"></span>
+      <span class="value" id="song-title" data-i18n="song.loading"></span>
+    </div>
+    <div class="status-item">
+      <span class="label" data-i18n="progress.label"></span>
+      <span class="value" id="progress-text">0 / 0</span>
+    </div>
+  </div>
+  <div id="progress-bar-outer"><div id="progress-bar-inner"></div></div>
+  <div class="legend">
+    <div><span class="legend-swatch" style="background:#5b8def"></span><span data-i18n="legend.next"></span></div>
+    <div><span class="legend-swatch legend-pulse" style="background:#5b8def"></span><span data-i18n="legend.ready"></span></div>
+    <div><span class="legend-swatch" style="background:#e3a63c"></span><span data-i18n="legend.held"></span></div>
+  </div>
+
+  <details class="fold" id="settings-fold">
+    <summary data-i18n="settings.summary"></summary>
+    <div class="fold-body">
+      <div class="assist-select">
+        <span class="assist-title" data-i18n="assist.title"></span>
+        <label><input type="radio" name="assist" value="full"> <span data-i18n="assist.full"></span></label>
+        <label><input type="radio" name="assist" value="standard" checked> <span data-i18n="assist.standard"></span></label>
+        <label><input type="radio" name="assist" value="none"> <span data-i18n="assist.none"></span></label>
+      </div>
+      <div class="assist-select">
+        <span class="assist-title" data-i18n="tempo.title"></span>
+        <label><input type="radio" name="tempo" value="auto" checked> <span data-i18n="tempo.auto"></span></label>
+        <label><input type="radio" name="tempo" value="original"> <span data-i18n="tempo.original"></span></label>
+      </div>
+      <div class="assist-select">
+        <span class="assist-title" data-i18n="chord.title"></span>
+        <label><input type="radio" name="chord" value="melody"> <span data-i18n="chord.melody"></span></label>
+        <label><input type="radio" name="chord" value="melody_bass"> <span data-i18n="chord.melodyBass"></span></label>
+        <label><input type="radio" name="chord" value="full" checked> <span data-i18n="chord.full"></span></label>
+      </div>
+    </div>
+  </details>
+
+  <details class="fold" id="howto-fold">
+    <summary data-i18n="howto.summary"></summary>
+    <div class="fold-body notice">
+      <p data-i18n-html="howto.p1"></p>
+      <p data-i18n="howto.p2"></p>
+      <p data-i18n="howto.p3"></p>
+      <p data-i18n="howto.p4"></p>
+    </div>
+  </details>
+
+  <div class="notice" id="song-license" style="margin-top:12px;"></div>
+</div>
+
+<div class="panel" id="guide-panel">
+  <div class="guide-strip-header">
+    <span data-i18n="guide.header"></span>
+    <span id="tempo-estimate-text" class="tempo-estimate"></span>
+  </div>
+  <div class="guide-strip" id="guide-strip">
+    <div class="guide-playline"></div>
+    <div class="guide-track" id="guide-track"></div>
+  </div>
+</div>
+
+<div class="panel" id="keyboard-panel">
+  <div class="intro-cue" id="intro-cue" role="status" hidden>
+    <span data-i18n="intro.cue"></span>
+    <span class="intro-count" id="intro-count"></span>
+  </div>
+  <div class="keyboard" id="keyboard"></div>
+</div>
+
+<footer class="page-footer">
+  <div class="notice" data-i18n="credit.audio"></div>
+</footer>
+
+<div id="intro-confirm" role="status" hidden>
+  <div class="intro-confirm-inner">
+    <div class="intro-confirm-line" data-i18n="intro.done"></div>
+    <!-- SPEC_SONGS_INTRO WP1-6: 曲名はイントロ中は伏せ、この確認表示で初めて明かす -->
+    <div class="intro-confirm-piece" id="intro-confirm-piece"></div>
+  </div>
+</div>
+
+<div id="start-overlay">
+  <div class="overlay-eyebrow" data-i18n="app.eyebrow"></div>
+  <div class="overlay-title" data-i18n="app.title"></div>
+  <div class="overlay-tagline" data-i18n="app.tagline"></div>
+  <button id="start-button" data-i18n="overlay.play" data-i18n-attr="title:overlay.playHint"></button>
+  <button type="button" id="skip-intro-button" class="overlay-skip" data-i18n="overlay.skip" hidden></button>
+</div>
+
+<script src="i18n.js?v=20260731c"></script>
+<script src="app.js?v=20260731c"></script>
+</body>
+</html>

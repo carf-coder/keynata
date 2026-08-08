@@ -1,0 +1,11 @@
+# 私的利用曲(著作権曲の私的複製)。いかなる形でも配布・公開しない(SPEC §23)
+songs_private/
+tools/source_midi_private/
+
+venv/
+__pycache__/
+.DS_Store
+
+# 公開ビルドの出力(GitHub Actionsが生成する)
+dist/
+dist.tmp/

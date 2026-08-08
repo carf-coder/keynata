@@ -1,0 +1,8066 @@
+{
+  "title": "バッハ インヴェンション第8番 BWV779",
+  "composer": "Johann Sebastian Bach",
+  "sourceUrl": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=61",
+  "license": "Public Domain (Mutopia piece page states: Copyright: Public Domain)",
+  "sourceFile": "bach_invention8.mid",
+  "ticksPerBeat": 384,
+  "tempoMicrosecondsPerBeat": 666666,
+  "maxChordSize": 4,
+  "eventCount": 373,
+  "octaveAdjustedNotes": [
+    {
+      "originalMidiNote": 43,
+      "originalNoteName": "G2",
+      "adjustedMidiNote": 55,
+      "adjustedNoteName": "G3",
+      "startTick": 12480
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 18048
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 18240
+    },
+    {
+      "originalMidiNote": 45,
+      "originalNoteName": "A2",
+      "adjustedMidiNote": 57,
+      "adjustedNoteName": "A3",
+      "startTick": 18336
+    },
+    {
+      "originalMidiNote": 43,
+      "originalNoteName": "G2",
+      "adjustedMidiNote": 55,
+      "adjustedNoteName": "G3",
+      "startTick": 18432
+    },
+    {
+      "originalMidiNote": 47,
+      "originalNoteName": "B2",
+      "adjustedMidiNote": 59,
+      "adjustedNoteName": "B3",
+      "startTick": 24960
+    },
+    {
+      "originalMidiNote": 45,
+      "originalNoteName": "A2",
+      "adjustedMidiNote": 57,
+      "adjustedNoteName": "A3",
+      "startTick": 26112
+    },
+    {
+      "originalMidiNote": 38,
+      "originalNoteName": "D2",
+      "adjustedMidiNote": 50,
+      "adjustedNoteName": "D3",
+      "startTick": 26496
+    },
+    {
+      "originalMidiNote": 43,
+      "originalNoteName": "G2",
+      "adjustedMidiNote": 55,
+      "adjustedNoteName": "G3",
+      "startTick": 26880
+    },
+    {
+      "originalMidiNote": 45,
+      "originalNoteName": "A2",
+      "adjustedMidiNote": 57,
+      "adjustedNoteName": "A3",
+      "startTick": 27072
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 27264
+    },
+    {
+      "originalMidiNote": 43,
+      "originalNoteName": "G2",
+      "adjustedMidiNote": 55,
+      "adjustedNoteName": "G3",
+      "startTick": 27456
+    },
+    {
+      "originalMidiNote": 36,
+      "originalNoteName": "C2",
+      "adjustedMidiNote": 48,
+      "adjustedNoteName": "C3",
+      "startTick": 27648
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 27840
+    },
+    {
+      "originalMidiNote": 41,
+      "originalNoteName": "F2",
+      "adjustedMidiNote": 53,
+      "adjustedNoteName": "F3",
+      "startTick": 28032
+    },
+    {
+      "originalMidiNote": 43,
+      "originalNoteName": "G2",
+      "adjustedMidiNote": 55,
+      "adjustedNoteName": "G3",
+      "startTick": 28224
+    },
+    {
+      "originalMidiNote": 45,
+      "originalNoteName": "A2",
+      "adjustedMidiNote": 57,
+      "adjustedNoteName": "A3",
+      "startTick": 28416
+    },
+    {
+      "originalMidiNote": 41,
+      "originalNoteName": "F2",
+      "adjustedMidiNote": 53,
+      "adjustedNoteName": "F3",
+      "startTick": 28608
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 28800
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 36480
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 36672
+    },
+    {
+      "originalMidiNote": 45,
+      "originalNoteName": "A2",
+      "adjustedMidiNote": 57,
+      "adjustedNoteName": "A3",
+      "startTick": 36768
+    },
+    {
+      "originalMidiNote": 43,
+      "originalNoteName": "G2",
+      "adjustedMidiNote": 55,
+      "adjustedNoteName": "G3",
+      "startTick": 36864
+    },
+    {
+      "originalMidiNote": 45,
+      "originalNoteName": "A2",
+      "adjustedMidiNote": 57,
+      "adjustedNoteName": "A3",
+      "startTick": 36960
+    },
+    {
+      "originalMidiNote": 43,
+      "originalNoteName": "G2",
+      "adjustedMidiNote": 55,
+      "adjustedNoteName": "G3",
+      "startTick": 37056
+    },
+    {
+      "originalMidiNote": 41,
+      "originalNoteName": "F2",
+      "adjustedMidiNote": 53,
+      "adjustedNoteName": "F3",
+      "startTick": 37152
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 37344
+    },
+    {
+      "originalMidiNote": 45,
+      "originalNoteName": "A2",
+      "adjustedMidiNote": 57,
+      "adjustedNoteName": "A3",
+      "startTick": 37440
+    },
+    {
+      "originalMidiNote": 46,
+      "originalNoteName": "A#2",
+      "adjustedMidiNote": 58,
+      "adjustedNoteName": "A#3",
+      "startTick": 37536
+    },
+    {
+      "originalMidiNote": 36,
+      "originalNoteName": "C2",
+      "adjustedMidiNote": 48,
+      "adjustedNoteName": "C3",
+      "startTick": 37824
+    },
+    {
+      "originalMidiNote": 41,
+      "originalNoteName": "F2",
+      "adjustedMidiNote": 53,
+      "adjustedNoteName": "F3",
+      "startTick": 38016
+    }
+  ],
+  "droppedNotes": [],
+  "keyRange": {
+    "min": "C3",
+    "max": "G#6"
+  },
+  "events": [
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.0
+    },
+    {
+      "keys": [
+        "KeyQ"
+      ],
+      "midiNotes": [
+        69
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyR"
+      ],
+      "midiNotes": [
+        72
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyI"
+      ],
+      "midiNotes": [
+        53,
+        76
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyY"
+      ],
+      "midiNotes": [
+        74
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyR"
+      ],
+      "midiNotes": [
+        57,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyY"
+      ],
+      "midiNotes": [
+        74
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyR"
+      ],
+      "midiNotes": [
+        53,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW"
+      ],
+      "midiNotes": [
+        70
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        60,
+        69
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW"
+      ],
+      "midiNotes": [
+        70
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        53,
+        69
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Semicolon"
+      ],
+      "midiNotes": [
+        67
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        64,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyG"
+      ],
+      "midiNotes": [
+        62
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyR"
+      ],
+      "midiNotes": [
+        60,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG"
+      ],
+      "midiNotes": [
+        62
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        60,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyO"
+      ],
+      "midiNotes": [
+        57,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyR"
+      ],
+      "midiNotes": [
+        57,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma"
+      ],
+      "midiNotes": [
+        55
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "Digit1"
+      ],
+      "midiNotes": [
+        53,
+        81
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit4"
+      ],
+      "midiNotes": [
+        84
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "Digit2"
+      ],
+      "midiNotes": [
+        57,
+        82
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit4"
+      ],
+      "midiNotes": [
+        84
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "Digit1"
+      ],
+      "midiNotes": [
+        60,
+        81
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit4"
+      ],
+      "midiNotes": [
+        84
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "Digit2"
+      ],
+      "midiNotes": [
+        57,
+        82
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit4"
+      ],
+      "midiNotes": [
+        84
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "Digit1"
+      ],
+      "midiNotes": [
+        65,
+        81
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit4"
+      ],
+      "midiNotes": [
+        84
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "Digit2"
+      ],
+      "midiNotes": [
+        60,
+        82
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit4"
+      ],
+      "midiNotes": [
+        84
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyR",
+        "Digit1"
+      ],
+      "midiNotes": [
+        72,
+        81
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        70,
+        79
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyR",
+        "Digit1"
+      ],
+      "midiNotes": [
+        72,
+        81
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyR",
+        "Digit1"
+      ],
+      "midiNotes": [
+        72,
+        81
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        70,
+        79
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyR",
+        "Digit1"
+      ],
+      "midiNotes": [
+        72,
+        81
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyR",
+        "Digit1"
+      ],
+      "midiNotes": [
+        72,
+        81
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        70,
+        79
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyR",
+        "Digit1"
+      ],
+      "midiNotes": [
+        72,
+        81
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Semicolon",
+        "KeyI"
+      ],
+      "midiNotes": [
+        67,
+        76
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Semicolon",
+        "KeyI"
+      ],
+      "midiNotes": [
+        67,
+        76
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Semicolon",
+        "KeyI"
+      ],
+      "midiNotes": [
+        67,
+        76
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ",
+        "KeyO"
+      ],
+      "midiNotes": [
+        69,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyE"
+      ],
+      "midiNotes": [
+        62,
+        71
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        64,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyY"
+      ],
+      "midiNotes": [
+        62,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ",
+        "KeyE"
+      ],
+      "midiNotes": [
+        64,
+        71
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyO"
+      ],
+      "midiNotes": [
+        62,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ",
+        "KeyY"
+      ],
+      "midiNotes": [
+        64,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyS",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        59,
+        79
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        55,
+        79
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyI"
+      ],
+      "midiNotes": [
+        60,
+        76
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyI"
+      ],
+      "midiNotes": [
+        55,
+        76
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyY"
+      ],
+      "midiNotes": [
+        74
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ",
+        "KeyR"
+      ],
+      "midiNotes": [
+        64,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyY"
+      ],
+      "midiNotes": [
+        74
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyR"
+      ],
+      "midiNotes": [
+        60,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW"
+      ],
+      "midiNotes": [
+        70
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        65,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Semicolon"
+      ],
+      "midiNotes": [
+        67
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ",
+        "KeyR"
+      ],
+      "midiNotes": [
+        64,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyE"
+      ],
+      "midiNotes": [
+        62,
+        71
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ",
+        "KeyR"
+      ],
+      "midiNotes": [
+        64,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyE"
+      ],
+      "midiNotes": [
+        62,
+        71
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        60,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyS",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        59,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        60,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyS",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        59,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyK"
+      ],
+      "midiNotes": [
+        57,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        55,
+        64
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK"
+      ],
+      "midiNotes": [
+        65
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        60,
+        64
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyS",
+        "KeyG"
+      ],
+      "midiNotes": [
+        59,
+        62
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyD"
+      ],
+      "midiNotes": [
+        57,
+        60
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyS"
+      ],
+      "midiNotes": [
+        59
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyR"
+      ],
+      "midiNotes": [
+        57,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyE"
+      ],
+      "midiNotes": [
+        55,
+        71
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyR"
+      ],
+      "midiNotes": [
+        53,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma"
+      ],
+      "midiNotes": [
+        55
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        53,
+        64
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB"
+      ],
+      "midiNotes": [
+        52
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyK"
+      ],
+      "midiNotes": [
+        50,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB"
+      ],
+      "midiNotes": [
+        52
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyR"
+      ],
+      "midiNotes": [
+        50,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        55,
+        64
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN"
+      ],
+      "midiNotes": [
+        53
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyR"
+      ],
+      "midiNotes": [
+        52,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN"
+      ],
+      "midiNotes": [
+        53
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyG"
+      ],
+      "midiNotes": [
+        55,
+        62
+      ],
+      "durationRatios": [
+        0.5,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyE"
+      ],
+      "midiNotes": [
+        55,
+        71
+      ],
+      "durationRatios": [
+        0.5,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyR"
+      ],
+      "midiNotes": [
+        72
+      ],
+      "durationRatios": [
+        1.0
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyB"
+      ],
+      "midiNotes": [
+        52
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "Comma"
+      ],
+      "midiNotes": [
+        55
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyD"
+      ],
+      "midiNotes": [
+        60
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyS",
+        "KeyR"
+      ],
+      "midiNotes": [
+        59,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "Slash"
+      ],
+      "midiNotes": [
+        57
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyI"
+      ],
+      "midiNotes": [
+        55,
+        76
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash"
+      ],
+      "midiNotes": [
+        57
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyR"
+      ],
+      "midiNotes": [
+        55,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN"
+      ],
+      "midiNotes": [
+        53
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        52,
+        79
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN"
+      ],
+      "midiNotes": [
+        53
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyR"
+      ],
+      "midiNotes": [
+        52,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC"
+      ],
+      "midiNotes": [
+        50
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "Digit4"
+      ],
+      "midiNotes": [
+        48,
+        84
+      ],
+      "durationRatios": [
+        0.5,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "Digit3"
+      ],
+      "midiNotes": [
+        52,
+        83
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        55,
+        79
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        52,
+        79
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyI"
+      ],
+      "midiNotes": [
+        60,
+        76
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyI"
+      ],
+      "midiNotes": [
+        55,
+        76
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyY"
+      ],
+      "midiNotes": [
+        74
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyH",
+        "KeyR"
+      ],
+      "midiNotes": [
+        63,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW"
+      ],
+      "midiNotes": [
+        70
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyM",
+        "KeyR"
+      ],
+      "midiNotes": [
+        54,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyH",
+        "KeyR"
+      ],
+      "midiNotes": [
+        63,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyM",
+        "KeyW"
+      ],
+      "midiNotes": [
+        54,
+        70
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyH",
+        "KeyR"
+      ],
+      "midiNotes": [
+        63,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyM",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        54,
+        69
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyW"
+      ],
+      "midiNotes": [
+        55,
+        70
+      ],
+      "durationRatios": [
+        0.5,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        53,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyV"
+      ],
+      "midiNotes": [
+        51
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyW"
+      ],
+      "midiNotes": [
+        50,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyV"
+      ],
+      "midiNotes": [
+        51
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        50,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "KeyY"
+      ],
+      "midiNotes": [
+        58,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        58,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash"
+      ],
+      "midiNotes": [
+        57
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        true
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        55,
+        79
+      ],
+      "durationRatios": [
+        0.5,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyO"
+      ],
+      "midiNotes": [
+        55,
+        77
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyU"
+      ],
+      "midiNotes": [
+        75
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "KeyY"
+      ],
+      "midiNotes": [
+        58,
+        74
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyU"
+      ],
+      "midiNotes": [
+        75
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyY"
+      ],
+      "midiNotes": [
+        55,
+        74
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyR"
+      ],
+      "midiNotes": [
+        72
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyR"
+      ],
+      "midiNotes": [
+        72
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyW"
+      ],
+      "midiNotes": [
+        55,
+        70
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyQ"
+      ],
+      "midiNotes": [
+        69
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Semicolon"
+      ],
+      "midiNotes": [
+        67
+      ],
+      "durationRatios": [
+        0.5
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyW"
+      ],
+      "midiNotes": [
+        65,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyH"
+      ],
+      "midiNotes": [
+        63
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyY"
+      ],
+      "midiNotes": [
+        62,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyH"
+      ],
+      "midiNotes": [
+        63
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD"
+      ],
+      "midiNotes": [
+        60
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        58,
+        79
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD"
+      ],
+      "midiNotes": [
+        60
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "KeyY"
+      ],
+      "midiNotes": [
+        58,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash"
+      ],
+      "midiNotes": [
+        57
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "Digit2"
+      ],
+      "midiNotes": [
+        55,
+        82
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN"
+      ],
+      "midiNotes": [
+        53
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyT"
+      ],
+      "midiNotes": [
+        55,
+        73
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ"
+      ],
+      "midiNotes": [
+        64
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "Digit2"
+      ],
+      "midiNotes": [
+        55,
+        82
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ"
+      ],
+      "midiNotes": [
+        64
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyT"
+      ],
+      "midiNotes": [
+        53,
+        73
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ"
+      ],
+      "midiNotes": [
+        64
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "Digit2"
+      ],
+      "midiNotes": [
+        55,
+        82
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ"
+      ],
+      "midiNotes": [
+        64
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyT"
+      ],
+      "midiNotes": [
+        52,
+        73
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyJ"
+      ],
+      "midiNotes": [
+        64
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyY"
+      ],
+      "midiNotes": [
+        53,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB"
+      ],
+      "midiNotes": [
+        52
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        53,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG"
+      ],
+      "midiNotes": [
+        62
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyO"
+      ],
+      "midiNotes": [
+        53,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG"
+      ],
+      "midiNotes": [
+        62
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyY"
+      ],
+      "midiNotes": [
+        52,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG"
+      ],
+      "midiNotes": [
+        62
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "Digit1"
+      ],
+      "midiNotes": [
+        53,
+        81
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG"
+      ],
+      "midiNotes": [
+        62
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyO"
+      ],
+      "midiNotes": [
+        50,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG"
+      ],
+      "midiNotes": [
+        62
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        58,
+        79
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        55,
+        79
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit2"
+      ],
+      "midiNotes": [
+        82
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyR"
+      ],
+      "midiNotes": [
+        52,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit2"
+      ],
+      "midiNotes": [
+        82
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyY"
+      ],
+      "midiNotes": [
+        55,
+        74
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit2"
+      ],
+      "midiNotes": [
+        82
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "KeyI"
+      ],
+      "midiNotes": [
+        48,
+        76
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit2"
+      ],
+      "midiNotes": [
+        82
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyR"
+      ],
+      "midiNotes": [
+        52,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit2"
+      ],
+      "midiNotes": [
+        82
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyO"
+      ],
+      "midiNotes": [
+        57,
+        77
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyI"
+      ],
+      "midiNotes": [
+        76
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyO"
+      ],
+      "midiNotes": [
+        53,
+        77
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyE"
+      ],
+      "midiNotes": [
+        50,
+        71
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyT"
+      ],
+      "midiNotes": [
+        53,
+        73
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyS",
+        "KeyY"
+      ],
+      "midiNotes": [
+        59,
+        74
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyE"
+      ],
+      "midiNotes": [
+        50,
+        71
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Digit1"
+      ],
+      "midiNotes": [
+        81
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyI"
+      ],
+      "midiNotes": [
+        55,
+        76
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyY"
+      ],
+      "midiNotes": [
+        74
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyI"
+      ],
+      "midiNotes": [
+        52,
+        76
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        79
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyX",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        49,
+        69
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        79
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyE"
+      ],
+      "midiNotes": [
+        52,
+        71
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        79
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyT"
+      ],
+      "midiNotes": [
+        57,
+        73
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        79
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyX",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        49,
+        69
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "BracketLeft"
+      ],
+      "midiNotes": [
+        79
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyO"
+      ],
+      "midiNotes": [
+        50,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC"
+      ],
+      "midiNotes": [
+        50
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "KeyY"
+      ],
+      "midiNotes": [
+        48,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC"
+      ],
+      "midiNotes": [
+        50
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyW"
+      ],
+      "midiNotes": [
+        55,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC"
+      ],
+      "midiNotes": [
+        50
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyY"
+      ],
+      "midiNotes": [
+        57,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC"
+      ],
+      "midiNotes": [
+        50
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        58,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC"
+      ],
+      "midiNotes": [
+        50
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyO"
+      ],
+      "midiNotes": [
+        55,
+        77
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC"
+      ],
+      "midiNotes": [
+        50
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "KeyI"
+      ],
+      "midiNotes": [
+        48,
+        76
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "KeyR"
+      ],
+      "midiNotes": [
+        58,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        53,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyR"
+      ],
+      "midiNotes": [
+        55,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyK"
+      ],
+      "midiNotes": [
+        57,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyU"
+      ],
+      "midiNotes": [
+        53,
+        75
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "KeyY"
+      ],
+      "midiNotes": [
+        58,
+        74
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyU"
+      ],
+      "midiNotes": [
+        50,
+        75
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyY"
+      ],
+      "midiNotes": [
+        53,
+        74
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyU"
+      ],
+      "midiNotes": [
+        50,
+        75
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "KeyY"
+      ],
+      "midiNotes": [
+        58,
+        74
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyU"
+      ],
+      "midiNotes": [
+        53,
+        75
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyO"
+      ],
+      "midiNotes": [
+        77
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyH",
+        "KeyR"
+      ],
+      "midiNotes": [
+        63,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyH",
+        "KeyR"
+      ],
+      "midiNotes": [
+        63,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyH",
+        "KeyR"
+      ],
+      "midiNotes": [
+        63,
+        72
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyK",
+        "KeyY"
+      ],
+      "midiNotes": [
+        65,
+        74
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        58,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        60,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        58,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        60,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        58,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        60,
+        69
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyG",
+        "KeyW"
+      ],
+      "midiNotes": [
+        62,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        55,
+        64
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyD"
+      ],
+      "midiNotes": [
+        57,
+        60
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        55,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        57,
+        64
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyW"
+      ],
+      "midiNotes": [
+        55,
+        70
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        57,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyR"
+      ],
+      "midiNotes": [
+        52,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyY"
+      ],
+      "midiNotes": [
+        74
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "KeyR"
+      ],
+      "midiNotes": [
+        48,
+        72
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW"
+      ],
+      "midiNotes": [
+        70
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        53,
+        69
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyW"
+      ],
+      "midiNotes": [
+        70
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "KeyQ"
+      ],
+      "midiNotes": [
+        48,
+        69
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Semicolon"
+      ],
+      "midiNotes": [
+        67
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyK"
+      ],
+      "midiNotes": [
+        57,
+        65
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Semicolon"
+      ],
+      "midiNotes": [
+        67
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyK"
+      ],
+      "midiNotes": [
+        53,
+        65
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyH"
+      ],
+      "midiNotes": [
+        63
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "KeyG"
+      ],
+      "midiNotes": [
+        58,
+        62
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyD"
+      ],
+      "midiNotes": [
+        60
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "Semicolon"
+      ],
+      "midiNotes": [
+        58,
+        67
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyK"
+      ],
+      "midiNotes": [
+        57,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        55,
+        64
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyK"
+      ],
+      "midiNotes": [
+        57,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        55,
+        64
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyG"
+      ],
+      "midiNotes": [
+        53,
+        62
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyD"
+      ],
+      "midiNotes": [
+        52,
+        60
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "KeyG"
+      ],
+      "midiNotes": [
+        53,
+        62
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "KeyD"
+      ],
+      "midiNotes": [
+        52,
+        60
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyA"
+      ],
+      "midiNotes": [
+        50,
+        58
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "Slash"
+      ],
+      "midiNotes": [
+        48,
+        57
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN",
+        "Slash"
+      ],
+      "midiNotes": [
+        53,
+        57
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB",
+        "Comma"
+      ],
+      "midiNotes": [
+        52,
+        55
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyN"
+      ],
+      "midiNotes": [
+        50,
+        53
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyB"
+      ],
+      "midiNotes": [
+        52
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyC",
+        "KeyK"
+      ],
+      "midiNotes": [
+        50,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        48,
+        64
+      ],
+      "durationRatios": [
+        0.25,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA",
+        "KeyK"
+      ],
+      "midiNotes": [
+        58,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ"
+      ],
+      "midiNotes": [
+        48
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyA"
+      ],
+      "midiNotes": [
+        57,
+        58
+      ],
+      "durationRatios": [
+        0.5,
+        0.25
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        true
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash"
+      ],
+      "midiNotes": [
+        57
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        true
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyA"
+      ],
+      "midiNotes": [
+        55,
+        58
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash"
+      ],
+      "midiNotes": [
+        57
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        true
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Comma",
+        "KeyK"
+      ],
+      "midiNotes": [
+        55,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyN"
+      ],
+      "midiNotes": [
+        53
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        true
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "Slash"
+      ],
+      "midiNotes": [
+        48,
+        57
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        true
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "Slash",
+        "KeyK"
+      ],
+      "midiNotes": [
+        57,
+        65
+      ],
+      "durationRatios": [
+        0.25,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyA"
+      ],
+      "midiNotes": [
+        58
+      ],
+      "durationRatios": [
+        0.25
+      ],
+      "velocities": [
+        127
+      ],
+      "octaveAdjusted": [
+        true
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "Comma"
+      ],
+      "midiNotes": [
+        48,
+        55
+      ],
+      "durationRatios": [
+        0.5,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.25
+    },
+    {
+      "keys": [
+        "KeyZ",
+        "KeyJ"
+      ],
+      "midiNotes": [
+        48,
+        64
+      ],
+      "durationRatios": [
+        0.5,
+        0.5
+      ],
+      "velocities": [
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    },
+    {
+      "keys": [
+        "KeyN",
+        "Slash",
+        "KeyD",
+        "KeyK"
+      ],
+      "midiNotes": [
+        53,
+        57,
+        60,
+        65
+      ],
+      "durationRatios": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "velocities": [
+        127,
+        127,
+        127,
+        127
+      ],
+      "octaveAdjusted": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "onsetDeltaRatio": 0.5
+    }
+  ]
+}

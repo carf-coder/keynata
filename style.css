@@ -1,0 +1,856 @@
+/* ============================================================
+   夜のコンサートグランド
+   黒檀ラッカーの舞台にフェルト赤の再生線。機能色(青=次に押す、
+   琥珀=押鍵中、4段カラー)は既存の学習を壊さず色相維持で調律。
+   ============================================================ */
+
+/* 書体はindex.htmlの<link>で読み込む(@importは直列読み込みで表示が遅れるため)。
+   和文書体は日本語表示のときだけi18n.jsが後から差し込む。 */
+
+:root {
+  /* 素材: 黒檀・象牙・フェルト・真鍮 */
+  --ebony-deep: #120e0b;
+  --ebony: #1c1613;
+  --ebony-raised: #272019;
+  --lacquer-line: #3b3128;
+  --ivory: #f2ead9;
+  --ivory-dim: #a89a85;
+  --felt: #c2483f;
+  --felt-deep: #96352e;
+  --brass: #c9a96a;
+
+  /* 機能色(信号) */
+  --guide-color: #5b8def; /* 次に押すキー */
+  --guide-glow: rgba(91, 141, 239, 0.65);
+  --held-color: #e3a63c; /* 押鍵中 */
+  --both-color: #58be8e; /* 次に押す+押鍵中 */
+
+  --key-bg: var(--ebony-raised);
+  --key-border: var(--lacquer-line);
+  --key-text: #d8cdba;
+  --accent: var(--ivory-dim);
+  --white: var(--ivory);
+
+  /* 表示書体はディドー系(Bodoni Moda)。19世紀の演奏会プログラムの書体であり、
+     極端な太細のコントラストが黒鍵と白鍵・黒檀と象牙の対比とそのまま重なる。
+     和文グリフは後続のZen系/OS内蔵書体が受け持つ(多言語スタック)。 */
+  --font-display: "Bodoni Moda", "Zen Old Mincho", "Hiragino Mincho ProN", serif;
+  --font-body: "IBM Plex Sans", "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", sans-serif;
+  --font-mono: "SF Mono", "Menlo", "Osaka-Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 28px 24px 48px;
+  background:
+    radial-gradient(1200px 480px at 50% -160px, #241c15 0%, rgba(36, 28, 21, 0) 70%),
+    var(--ebony-deep);
+  color: var(--ivory);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+main,
+.page {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* --- 演奏会プログラム風ヘッダ ------------------------------------------- */
+
+.masthead {
+  max-width: 1180px;
+  margin: 0 auto 26px;
+}
+
+.masthead-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 6px;
+}
+
+.masthead .eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--brass);
+}
+
+/* 言語切替(SPEC_I18N_ONBOARDING §2.4)。選択中は非活性表示 */
+.lang-switch {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.lang-button {
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  padding: 4px 12px;
+  min-height: 28px;
+  border: 1px solid var(--lacquer-line);
+  border-radius: 6px;
+  background: var(--ebony-raised);
+  color: var(--ivory);
+  cursor: pointer;
+}
+
+.lang-button:hover:not(:disabled) {
+  border-color: var(--brass);
+}
+
+.lang-button:disabled,
+.lang-button.is-current {
+  background: rgba(201, 169, 106, 0.16);
+  border-color: var(--brass);
+  color: var(--brass);
+  cursor: default;
+}
+
+.lang-button:focus-visible {
+  outline: 2px solid var(--felt);
+  outline-offset: 2px;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
+  margin: 0 0 10px 0;
+}
+
+.masthead .rule {
+  height: 1px;
+  background: linear-gradient(to right, var(--brass) 0%, rgba(201, 169, 106, 0.15) 60%, transparent 100%);
+  margin: 0 0 10px;
+}
+
+.subtitle {
+  color: var(--ivory-dim);
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+/* --- パネル -------------------------------------------------------------- */
+
+.panel {
+  max-width: 1180px;
+  margin: 0 auto 18px;
+  background: var(--ebony);
+  border: 1px solid rgba(59, 49, 40, 0.8);
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+
+.panel-title {
+  /* 15pxではディドー系の細線が消えるため、小さなラベルは本文書体で組む
+     (表示書体の見せ場はh1とオーバーレイに集約する) */
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  color: var(--ivory);
+  margin: 0 0 12px;
+}
+
+.status-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  align-items: baseline;
+}
+
+.status-item .label {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--ivory-dim);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.status-item .value {
+  font-size: 16px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+#progress-bar-outer {
+  height: 5px;
+  background: var(--lacquer-line);
+  border-radius: 3px;
+  margin-top: 14px;
+  overflow: hidden;
+}
+
+#progress-bar-inner {
+  height: 100%;
+  background: linear-gradient(to right, var(--felt-deep), var(--felt));
+  width: 0%;
+  transition: width 0.15s ease-out;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font-size: 12px;
+  color: var(--ivory-dim);
+  margin-top: 14px;
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* SPEC §18.2 曲選択 */
+#song-select {
+  background: var(--ebony-raised);
+  color: var(--ivory);
+  border: 1px solid var(--lacquer-line);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+#song-select:focus-visible {
+  outline: 2px solid var(--felt);
+  outline-offset: 1px;
+}
+
+/* SPEC §16 補助レベル選択(選択肢はカード状に。checked行だけ象牙側に照らす) */
+.assist-select {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+.assist-select .assist-title {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--brass);
+  margin-bottom: 2px;
+}
+
+.assist-select label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--key-text);
+  padding: 6px 10px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.assist-select label:hover {
+  background: rgba(242, 234, 217, 0.04);
+}
+
+.assist-select label:has(input:checked) {
+  background: rgba(242, 234, 217, 0.06);
+  border-color: var(--lacquer-line);
+  color: var(--ivory);
+}
+
+.assist-select input[type="radio"] {
+  accent-color: var(--felt);
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.assist-select input[type="radio"]:focus-visible {
+  outline: 2px solid var(--felt);
+  outline-offset: 2px;
+}
+
+/* --- 段階開示(SPEC_I18N_ONBOARDING §4) ---------------------------------- */
+
+details.fold {
+  margin-top: 14px;
+  border: 1px solid var(--lacquer-line);
+  border-radius: 8px;
+  background: rgba(242, 234, 217, 0.02);
+}
+
+details.fold > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 9px 12px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+}
+
+details.fold > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* 開閉の向きを示すシェブロン(テキスト装飾のみ・絵文字は使わない) */
+details.fold > summary::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid var(--brass);
+  border-bottom: 1.5px solid var(--brass);
+  transform: rotate(-45deg);
+  transition: transform 0.15s;
+  flex-shrink: 0;
+}
+
+details.fold[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+details.fold > summary:focus-visible {
+  outline: 2px solid var(--felt);
+  outline-offset: -2px;
+  border-radius: 8px;
+}
+
+details.fold .fold-body {
+  padding: 0 12px 14px;
+}
+
+details.fold .fold-body p {
+  margin: 0 0 8px;
+}
+
+details.fold .fold-body p:last-child {
+  margin-bottom: 0;
+}
+
+details.fold .assist-select:first-child {
+  margin-top: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  details.fold > summary::before {
+    transition: none;
+  }
+}
+
+.page-footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 4px;
+}
+
+/* --- オンボーディング(SPEC_I18N_ONBOARDING §3) --------------------------- */
+
+/* イントロ中は設定・凡例・説明・曲選択・譜面帯を伏せ、鍵盤と最小限の合図だけ見せる。
+   音源クレジットはフッタに置いてあるため、イントロ中も出たままになる。 */
+body.intro-mode #main-panel,
+body.intro-mode #guide-panel {
+  display: none;
+}
+
+.intro-cue {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: var(--ivory);
+}
+
+.intro-cue[hidden] {
+  display: none;
+}
+
+.intro-cue .intro-count {
+  font-variant-numeric: tabular-nums;
+  color: var(--brass);
+  font-family: var(--font-mono);
+}
+
+#intro-confirm {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 7, 5, 0.82);
+  z-index: 11;
+  text-align: center;
+  padding: 24px;
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: 0.08em;
+  color: var(--ivory);
+}
+
+#intro-confirm[hidden] {
+  display: none;
+}
+
+.intro-confirm-piece {
+  margin-top: 14px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: var(--brass);
+}
+
+.intro-confirm-piece:empty {
+  display: none;
+}
+
+/* --- 鍵盤 ---------------------------------------------------------------- */
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.key-row {
+  display: flex;
+  gap: 6px;
+}
+
+.key {
+  position: relative;
+  overflow: hidden;
+  width: 62px;
+  height: 70px;
+  background: linear-gradient(to bottom, #2c251d 0%, var(--ebony-raised) 100%);
+  border: 1px solid var(--lacquer-line);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: var(--key-text);
+  transition: background 0.05s, border-color 0.05s, transform 0.05s;
+  user-select: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.45);
+}
+
+/* SPEC §14.2 段カラーをキー上辺の細い帯で示し、譜面帯の色と直接ひも付ける */
+.key::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--row-color, transparent);
+  opacity: 0.85;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* SPEC §14.1 接近表示: 次に押すキーの内部を下から満たす青い光。満ちきり=押す瞬間 */
+.key .key-approach {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0%;
+  background: rgba(91, 141, 239, 0.4);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* 押鍵中は保持スイープが主役なので接近表示は隠す */
+.key.held .key-approach {
+  display: none;
+}
+
+/* SPEC §14.1 保持ガイド: キー内部を横切る充填スイープ。塗り切り=離す瞬間 */
+.key .key-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  background: rgba(0, 0, 0, 0.35);
+  transition: width linear;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.key .key-label {
+  position: relative;
+  z-index: 2;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.key .note-label {
+  position: relative;
+  z-index: 2;
+  font-size: 11px;
+  color: var(--ivory-dim);
+  margin-top: 2px;
+}
+
+.key.held {
+  background: var(--held-color);
+  border-color: var(--held-color);
+  color: #221708;
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.key.held .note-label {
+  color: #5c4413;
+}
+
+.key.guide {
+  border-color: var(--guide-color);
+  box-shadow: 0 0 0 2px var(--guide-color) inset, 0 2px 0 rgba(0, 0, 0, 0.45);
+}
+
+.key.guide .note-label {
+  color: var(--guide-color);
+}
+
+.key.guide.held {
+  background: var(--both-color);
+  border-color: var(--both-color);
+}
+
+/* SPEC §14.1: 推定テンポ上「押すべき瞬間」が来たキーの脈動 */
+.key.guide.ready:not(.held) {
+  animation: key-ready-pulse 0.6s ease-in-out infinite;
+}
+
+@keyframes key-ready-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 2px var(--guide-color) inset, 0 0 0 0 rgba(91, 141, 239, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 2px var(--guide-color) inset, 0 0 12px 2px var(--guide-glow);
+  }
+}
+
+.row-hint {
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ivory-dim);
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notice {
+  font-size: 12px;
+  color: var(--ivory-dim);
+  line-height: 1.7;
+}
+
+.notice strong {
+  color: var(--ivory);
+}
+
+.notice a {
+  color: var(--brass);
+}
+
+/* --- 開始オーバーレイ(プログラム表紙) ----------------------------------- */
+
+#start-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 7, 5, 0.88);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  text-align: center;
+}
+
+#start-overlay .overlay-eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.42em;
+  color: var(--brass);
+}
+
+#start-overlay .overlay-eyebrow {
+  text-transform: uppercase;
+}
+
+#start-overlay .overlay-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: 0.12em;
+  color: var(--ivory);
+}
+
+#start-overlay .overlay-tagline {
+  max-width: 28em;
+  padding: 0 24px;
+  font-size: 15px;
+  color: var(--ivory-dim);
+  margin-top: -8px;
+}
+
+#start-overlay .overlay-skip {
+  background: none;
+  border: none;
+  padding: 4px 10px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--ivory-dim);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-top: -8px;
+}
+
+#start-overlay .overlay-skip:hover {
+  color: var(--ivory);
+  filter: none;
+}
+
+#start-overlay .overlay-skip[hidden] {
+  display: none;
+}
+
+#start-overlay button {
+  font-size: 15px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  padding: 14px 34px;
+  border-radius: 8px;
+  border: 1px solid var(--felt);
+  background: linear-gradient(to bottom, var(--felt), var(--felt-deep));
+  color: var(--ivory);
+  cursor: pointer;
+  transition: filter 0.15s;
+}
+
+#start-overlay button:hover {
+  filter: brightness(1.12);
+}
+
+#start-overlay button:focus-visible {
+  outline: 2px solid var(--ivory);
+  outline-offset: 2px;
+}
+
+#start-overlay.hidden {
+  display: none;
+}
+
+#error-box {
+  max-width: 1180px;
+  margin: 0 auto 16px;
+  background: #401a17;
+  border: 1px solid var(--felt-deep);
+  color: #f0b8ae;
+  padding: 12px 16px;
+  border-radius: 8px;
+  display: none;
+  white-space: pre-wrap;
+  font-size: 13px;
+}
+
+#error-box.visible {
+  display: block;
+}
+
+/* --- ピアノロール型ガイド帯=舞台(SPEC.md §13.2) ------------------------- */
+
+.guide-strip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--ivory-dim);
+  margin-bottom: 10px;
+}
+
+.tempo-estimate {
+  font-variant-numeric: tabular-nums;
+  color: var(--brass);
+  white-space: nowrap;
+}
+
+/* 黒檀の舞台面に五線譜風のヘアライン。フェルト赤の再生線が「今」を照らす */
+.guide-strip {
+  position: relative;
+  height: 210px;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 40px,
+      rgba(242, 234, 217, 0.05) 40px,
+      rgba(242, 234, 217, 0.05) 41px
+    ),
+    linear-gradient(to bottom, #171310, #100d0a);
+  border: 1px solid var(--lacquer-line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.guide-playline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  background: var(--felt);
+  box-shadow: 0 0 10px 1px rgba(194, 72, 63, 0.55);
+  z-index: 2;
+}
+
+.guide-track {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  right: 0;
+  bottom: 0;
+  /* SPEC §14.2: 帯はJS(requestAnimationFrame)がtranslateXで動かすため、
+     CSS側のtransitionは付けない */
+  will-change: transform;
+}
+
+.guide-block {
+  position: absolute;
+  top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.guide-note-row {
+  position: relative;
+  height: 32px;
+  min-width: 26px;
+  background: var(--ebony-raised);
+  border: 1px solid var(--lacquer-line);
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  font-size: 16px;
+  color: var(--key-text);
+  white-space: nowrap;
+}
+
+.guide-block.is-current .guide-note-row {
+  border-color: var(--guide-color);
+}
+
+/* 再生線に到達した(=押すべき瞬間の)ブロック */
+.guide-block.arrived .guide-note-row {
+  border-color: var(--guide-color);
+  box-shadow: 0 0 8px 1px var(--guide-glow);
+}
+
+.guide-note-row .guide-note-key-label {
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: var(--font-mono);
+}
+
+/* SPEC §21.2: 紛らわしい記号刻印(,や.等)は拡大して読み間違いを防ぐ */
+.guide-note-row .guide-note-key-label.punct {
+  font-size: 24px;
+  line-height: 1;
+}
+
+/* 凡例の脈動サンプル */
+.legend-pulse {
+  animation: key-ready-pulse-legend 0.6s ease-in-out infinite;
+}
+
+@keyframes key-ready-pulse-legend {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(91, 141, 239, 0); }
+  50% { box-shadow: 0 0 6px 2px var(--guide-glow); }
+}
+
+/* 装飾アニメーションは動きの抑制設定に従う(ゲーム進行のスクロールはJS駆動で対象外) */
+@media (prefers-reduced-motion: reduce) {
+  .key.guide.ready:not(.held) {
+    animation: none;
+    box-shadow: 0 0 12px 2px var(--guide-glow), 0 0 0 2px var(--guide-color) inset;
+  }
+  .legend-pulse {
+    animation: none;
+    box-shadow: 0 0 6px 2px var(--guide-glow);
+  }
+}
+
+/* 狭幅では鍵盤だけを内部スクロールさせ、ページ本体は横スクロールさせない */
+@media (max-width: 620px) {
+  body {
+    overflow-x: hidden;
+  }
+  .keyboard {
+    overflow-x: auto;
+    padding-bottom: 6px;
+  }
+  .key-row {
+    width: max-content;
+  }
+  .masthead-top {
+    flex-wrap: wrap;
+  }
+  #intro-confirm {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 20px 12px 40px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .key {
+    width: 46px;
+    height: 58px;
+  }
+  .key .key-label {
+    font-size: 14px;
+  }
+  .key .note-label {
+    display: none;
+  }
+  .row-hint {
+    width: 44px;
+    font-size: 10px;
+  }
+}
